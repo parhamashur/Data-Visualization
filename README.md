@@ -1,2 +1,2 @@
 # Data-Visualization
-R codes for weather visualization.
+This project is a reproduction of a work by Brad Boehmke in a blog [<a href="https://rpubs.com/bradleyboehmke/weather_graphic">link</a>] on weather visualization.
