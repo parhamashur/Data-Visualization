@@ -19,9 +19,12 @@ library(effsize)
 library(lmerTest)
 library(eyetrackingR)
 
+#Link to datasets
+#https://osf.io/r7pku/download
+#https://osf.io/bkg2t/download
 ###IMPORTING THE DATA SETS###
-dataset1<-read.csv("ASHUR_dataset1.csv", header = T)
-dataset2<-read.csv("ASHUR_dataset2.csv", header = T)
+dataset1<-read.csv("dataset1.csv", header = T)
+dataset2<-read.csv("dataset2.csv", header = T)
 
 ###making eye-tracking data seperatly for each sampling rate###
 dataset.1 <- make_eyetrackingr_data(subset(dataset1,Time1>=0 & Time1<=10000), 
